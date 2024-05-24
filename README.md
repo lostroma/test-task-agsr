@@ -12,7 +12,7 @@ mvn package -DskipTests
 ```
 
 ### How to build docker image
-Find information in the [`test-task-agsr/docker/Dockerfile`](https://github.com/lostroma/test-task-agsr/docker/README.md)
+Find information in the [`test-task-agsr/docker/Dockerfile`](https://github.com/lostroma/test-task-agsr/blob/main/docker/README.md)
 
 ### How to run Helm chart
 ```bash
