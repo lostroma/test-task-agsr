@@ -10,10 +10,10 @@ mvn package -DskipTests
 # These variables must be forwarded to the script for successful initialization. 
 # I don't make any checks, because in this case the variables are set hard. 
 TARGET_DIR=./target # Set path to artifact dirictory
-RELEASE_NAME=test-task-k8s # Used to start the HELM. In common cases it is equal to $GIT_REPONAME
+RELEASE_NAME=test-task-agsr # Used to start the HELM. In common cases it is equal to $GIT_REPONAME
 DOCKER_IMAGE=lostroma/$RELEASE_NAME:latest # Or $DOCKER_REPOSITORY/$GIT_REPONAME:$GIT_SHA
 HELM_DIR=./helm
-HELM_VALUES_FILE=$HELM_VALUES_DIR/values.yaml
+HELM_VALUES_FILE=$HELM_DIR/values.yaml
 DOCKERFILE=./docker/Dockerfile
 
 # Find the newest JAR file in the $TARGET_DIR

@@ -1,6 +1,6 @@
 name: app-agsr
 replicaCount: 3
-image: "docker.io/lostroma/test-app-agsr:latest"
+image: "lostroma/test-task-agsr:latest"
 service:
   port: 80
 namespace: app-agsr

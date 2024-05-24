@@ -1,4 +1,4 @@
-# test-task-k8s
+# test-task-agsr
 
 
 ## [A diagram of the minimum infrastructure for monitoring and application logging](https://drive.google.com/file/d/1auOCo5eVR2r3DSy9a1oa0j8MTAE9-8FA/view?usp=sharing)
@@ -12,7 +12,7 @@ mvn package -DskipTests
 ```
 
 ### How to build docker image
-Find information in the [`test-task-k8s/docker/Dockerfile`](https://github.com/lostroma/test-task-k8s/docker/README.md)
+Find information in the [`test-task-agsr/docker/Dockerfile`](https://github.com/lostroma/test-task-agsr/docker/README.md)
 
 ### How to run Helm chart
 ```bash

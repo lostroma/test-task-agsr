@@ -1,18 +1,18 @@
-## Building Docker Image for `test-task-k8s`
+## Building Docker Image for `test-task-agsr`
 
-To build the Docker image for the `test-task-k8s` application, you can use the following command:
+To build the Docker image for the `test-task-agsr` application, you can use the following command:
 
-### From the git `test-task-k8s` root directory:
+### From the git `test-task-agsr` root directory:
 
 ```bash
-docker build -t test-task-k8s \
+docker build -t test-task-agsr \
   -f ./docker/Dockerfile \
   --build-arg JAR_FILE="./backend/target/*.jar" .
 ```
 
-### From the git `test-task-k8s` ./docker directory:
+### From the git `test-task-agsr` ./docker directory:
 ```bash
-docker build -t test-task-k8s \
+docker build -t test-task-agsr \
   -f ./Dockerfile ..
 ```
-This command will initiate the Docker build process and create a Docker image named `test-task-k8s` for the `test-task-k8s` application. Make sure to execute the command that corresponds to your current directory.
+This command will initiate the Docker build process and create a Docker image named `test-task-agsr` for the `test-task-agsr` application. Make sure to execute the command that corresponds to your current directory.
