@@ -24,6 +24,12 @@ DOCKER_USERNAME=username
 DOCKER_PASSWORD=password
 
 # Build a Docker image using $DOCKERFILE and $JAR_FILE
+# It should be like this, but I simplified it and put everything in one command. 
+# docker build \
+#   -t $DOCKER_IMAGE \
+#   -f $DOCKERFILE \
+#   --build-arg JAR_FILE=$JAR_FILE .
+# docker push $DOCKER_IMAGE
 docker buildx build \
   -t $DOCKER_IMAGE \
   --file $DOCKERFILE \
