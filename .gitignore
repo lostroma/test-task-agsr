@@ -1,0 +1,12 @@
+# build artifact
+target
+
+# intellij idea
+.idea
+*.iml
+
+# VS Code
+.vscode
+
+# local files
+.local

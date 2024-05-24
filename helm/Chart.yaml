@@ -1,0 +1,4 @@
+apiVersion: v2
+description: Application
+name: java-app
+version: 0.0.1

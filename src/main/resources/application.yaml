@@ -1,0 +1,6 @@
+# src/main/resources/application.yaml
+server:
+  port: 80
+
+app:
+  message: "Hello, this is a message from application.yaml"
